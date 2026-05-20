@@ -2,8 +2,8 @@
 
 **Asignatura:** Herramientas y visualización de datos
 **Actividad:** Monitoreo y observabilidad
-**Nombre:** [Tu nombre completo]
-**Código:** [Tu código de estudiante]
+**Nombre:** Loreana Uyaban Sanchez 
+**Código:** 202210022601
 
 ## Descripción
 
@@ -150,11 +150,4 @@ Las métricas implementadas siguen el método **RED** (Rate, Errors, Duration):
 - **Errors:** `http_errors_total` permite calcular SLO de disponibilidad.
 - **Duration:** el histograma de latencia permite calcular p95/p99, mejor indicador de experiencia de usuario que el promedio.
 
-**Optimización posible:** el endpoint `/api/lento` consume 2-3s de latencia, lo que satura el pool de workers. Acciones posibles: paralelizar el procesamiento con async, agregar caché en Redis, o aumentar workers de uvicorn (`--workers 4`).
 
----
-
-## Entrega
-
-- Repositorio GitHub: [URL]
-- Video demostrativo: [URL]
