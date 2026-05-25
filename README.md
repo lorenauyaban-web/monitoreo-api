@@ -62,9 +62,7 @@ monitoreo-api/
 - `system_cpu_usage_percent` - Gauge
 - `system_memory_usage_percent` - Gauge
 
-## Cómo ejecutar
 
-Requisitos: Docker y Docker Compose instalados.
 
 ```bash
 # 1. Levantar el stack
@@ -85,11 +83,11 @@ Acceder en el navegador:
 - Prometheus: http://localhost:9090
 - Grafana: http://localhost:3001 (admin / admin)
 
-El dashboard se llama **"API REST - Monitoreo y Observabilidad"** y aparece provisionado automáticamente.
+
 
 ## Generar tráfico
 
-Elige una opción según tu sistema:
+
 
 ```bash
 # Python (multiplataforma)
@@ -142,7 +140,7 @@ docker-compose down
 docker-compose down -v
 ```
 
-## Análisis de las métricas (para el video)
+## Análisis de las métricas 
 
 Las métricas implementadas siguen el método **RED** (Rate, Errors, Duration):
 
